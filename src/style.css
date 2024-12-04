@@ -19,15 +19,24 @@ h1 {
 hearder {
   margin-bottom: 30px;
 }
-
-form {
-  padding: 30px;
+.form-container {
   background-color: white;
+  margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
-  display: flex;
-  margin-bottom: 30px;
+  padding: 15px 20px;
 }
+
+form {
+  display: flex;
+}
+.hint {
+  line-height: 1.5;
+  opacity: 0.6;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
 .instructions {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
@@ -50,11 +59,15 @@ form {
 }
 .poem {
   font-size: 14px;
+
   background-color: #fff;
   padding: 20px;
   line-height: 2;
   border-left: 3px solid #885df1;
   box-shadow: 0px 4px 30px rgba(39, 33, 66, 0.03);
+}
+.hidden {
+  display: none;
 }
 .poem strong {
   color: #885df1;
